@@ -661,7 +661,7 @@ font-weight: 600;
 
         // Smooth distance transition
         currentDist += (targetDist - currentDist) * 0.08;
-        dist = currentDist;
+        const dist = currentDist;
 
         const q1Val = targetQ1;
         const q2Val = targetQ2;
